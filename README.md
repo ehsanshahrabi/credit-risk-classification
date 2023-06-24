@@ -1,16 +1,16 @@
-### Credit Risk Analysis Report
+# Credit Risk Analysis Report
 
-### Overview
+## Overview
 
 The purpose of this analysis is to assess the performance of a machine learning model for credit risk analysis. The model uses logistic regression to predict whether a loan is classified as a "healthy loan" (0) or a "high-risk loan" (1). Two different approaches are evaluated: one using the original data and another using resampled data to address class imbalance.
 
-### Results
+## Results
 
-__1- Logistic Regression Model with Original Data__
+### 1- Logistic Regression Model with Original Data
 
 Accuracy Score: 0.9918
 
-# Precision Score:
+#### Precision Score:
 Healthy Loan (0): 1.00
 High-Risk Loan (1): 0.85
 Recall Score:
@@ -20,11 +20,11 @@ F1-Score:
 Healthy Loan (0): 1.00
 High-Risk Loan (1): 0.88
 
-__2-Logistic Regression Model with Resampled Data__
+### 2-Logistic Regression Model with Resampled Data
 
 Accuracy Score: 0.9938
 
-# Precision Score:
+#### Precision Score:
 Healthy Loan (0): 1.00
 High-Risk Loan (1): 0.84
 Recall Score:
@@ -34,11 +34,11 @@ F1-Score:
 Healthy Loan (0): 1.00
 High-Risk Loan (1): 0.91
 
-### Summary
+## Summary
 
 The logistic regression model shows promising performance for credit risk analysis in both the original data and the resampled data scenarios. Here are the key findings:
 
-# Logistic Regression Model with Original Data:
+### Logistic Regression Model with Original Data:
 
 The model achieves a high accuracy score of 0.9918, indicating its overall effectiveness in classifying loans.
 The precision score for the "healthy loan" (0) class is perfect at 1.00, indicating that all predicted healthy loans are correct.
@@ -47,7 +47,7 @@ The recall score for the "healthy loan" (0) class is 0.99, meaning that nearly a
 The recall score for the "high-risk loan" (1) class is 0.91, indicating that the model captures around 91% of the true high-risk loans.
 The F1-scores for both classes show a similar trend, with a perfect score of 1.00 for healthy loans and 0.88 for high-risk loans.
 
-# Logistic Regression Model with Resampled Data:
+### Logistic Regression Model with Resampled Data:
 
 The model's performance improves slightly when trained on resampled data.
 The accuracy score increases to 0.9938, indicating improved overall performance.

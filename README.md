@@ -12,14 +12,17 @@ Accuracy Score: 0.9918
 
 Precision Score:
 Healthy Loan (0): 1.00
+
 High-Risk Loan (1): 0.85
 
 Recall Score:
 Healthy Loan (0): 0.99
+
 High-Risk Loan (1): 0.91
 
 F1-Score:
 Healthy Loan (0): 1.00
+
 High-Risk Loan (1): 0.88
 
 ### 2-Logistic Regression Model with Resampled Data
@@ -28,14 +31,17 @@ Accuracy Score: 0.9938
 
 Precision Score:
 Healthy Loan (0): 1.00
+
 High-Risk Loan (1): 0.84
 
 Recall Score:
 Healthy Loan (0): 0.99
+
 High-Risk Loan (1): 0.99
 
 F1-Score:
 Healthy Loan (0): 1.00
+
 High-Risk Loan (1): 0.91
 
 ## Summary
